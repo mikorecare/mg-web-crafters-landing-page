@@ -1,10 +1,10 @@
 import logo from '../../assets/logo.png'
-
+import '../../styles/navbar.css'
 const Navbar = () =>
 {
     return(
      <header>
-           <img src ={logo}/>
+           <img src ={logo} className="nav-logo"/>
            <nav>
                 <ul>
                     <li><a href='#'>Home</a></li> 
