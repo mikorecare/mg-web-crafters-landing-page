@@ -1,9 +1,9 @@
-
+import Navbar from "./navbar/navbar"
 
 export default function Home(){
     return(
         <div>
-            <h1>Home Works</h1>
+            <Navbar/>
         </div>
     )
 }

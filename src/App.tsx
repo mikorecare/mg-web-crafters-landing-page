@@ -1,5 +1,5 @@
 import './App.css'
-import Home from './pages/home.tsx'
+import Home from './components/home.tsx'
 function App() {
 
 
