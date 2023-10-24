@@ -4,7 +4,7 @@ header{
     font-size:large;
     display: flex;
     justify-content: space-between;
-    background-color: var(--brand-color-2);
+    background-color: var(--brand-color-dirtywhite);
     box-shadow: 5px 2px 2px 1px rgba(0,0,0,0.3);
 }
 

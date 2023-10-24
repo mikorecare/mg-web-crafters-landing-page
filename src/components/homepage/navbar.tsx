@@ -1,4 +1,4 @@
-import logo from '../../assets/logo.png'
+import logo from '../../assets/logo1.png'
 import '../../styles/navbar.css'
 const Navbar = () =>
 {
@@ -7,10 +7,10 @@ const Navbar = () =>
            <img src ={logo} className="nav-logo"/>
            <nav>
                 <ul>
-                    <li><a href='#'>Home</a></li> 
-                    <li><a href='#'>Services</a></li> 
-                    <li><a href='#'>About</a></li>  
-                    <li><a href='#'>Contact Us</a></li>  
+                    <li><a href='#'>HOME</a></li> 
+                    <li><a href='#'>SERVICES</a></li> 
+                    <li><a href='#'>ABOUT</a></li>  
+                    <li><a href='#'>CONTACT US</a></li>  
                 </ul>
            </nav>
      </header>   
