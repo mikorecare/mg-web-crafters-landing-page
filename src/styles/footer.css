@@ -7,7 +7,7 @@ footer{
     width:100%;
     background-color: var(--brand-color-darkgrey);
     text-align: center;
-    height:max-content;
+    height:100%;
     color: var(--brand-color-dirtywhite)
 }
 
