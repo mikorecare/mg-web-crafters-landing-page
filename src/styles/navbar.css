@@ -3,7 +3,7 @@
 header{
     font-size:large;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     background-color: var(--brand-color-dirtywhite);
     box-shadow: 5px 2px 2px 1px rgba(0,0,0,0.3);
 }
@@ -32,6 +32,16 @@ nav ul li:hover{
 nav ul li a{
     color: var(--brand-color-darkgrey);
     text-decoration: none;
+}
+
+
+.logo-container{
+    display: flex;
+    text-wrap:nowrap;
+}
+
+.logo-container p{
+    padding: 10px;
 }
 
 .nav-logo {

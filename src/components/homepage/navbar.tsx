@@ -4,15 +4,19 @@ const Navbar = () =>
 {
     return(
      <header>
-           <img src ={logo} className="nav-logo"/>
-           <nav>
-                <ul>
-                    <li><a href='#'>HOME</a></li> 
-                    <li><a href='#'>SERVICES</a></li> 
-                    <li><a href='#'>ABOUT</a></li>  
-                    <li><a href='#'>CONTACT US</a></li>  
-                </ul>
-           </nav>
+            <div className='logo-container'>
+            <img src ={logo} className="nav-logo"/>
+            <p>MG Web Crafters VA</p>
+            </div>
+          
+                <nav>
+                    <ul>
+                        <li><a href='#'>HOME</a></li> 
+                        <li><a href='#'>SERVICES</a></li> 
+                        <li><a href='#'>ABOUT</a></li>  
+                        <li><a href='#'>CONTACT US</a></li>  
+                    </ul>
+                </nav>  
      </header>   
      
     )
