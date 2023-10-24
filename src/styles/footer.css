@@ -12,7 +12,9 @@ footer{
     color: var(--brand-color-dirtywhite)
 }
 
-
+a{
+    color: var(--brand-color-dirtywhite)
+}
 
 .social-icons .icon{
     margin-right:10px;
