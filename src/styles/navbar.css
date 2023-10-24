@@ -1,6 +1,7 @@
 @import './branding.css';
 
 header{
+    font-size:large;
     display: flex;
     justify-content: space-between;
     background-color: var(--brand-color-2);
@@ -8,7 +9,7 @@ header{
 }
 
 nav{
-    margin-right:5%;
+    margin-right:2%;
 }
 
 nav ul{
