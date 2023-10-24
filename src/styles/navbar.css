@@ -1,11 +1,14 @@
 @import './branding.css';
 
+
+
+
 header{
-    color: var(--brand-color-dirtywhite);
+    color: var(--brand-color-darkgrey);
     font-size:large;
     display: flex;
     justify-content:space-between;
-    background-color: var(--brand-color-darkgrey);
+    background-color: var(--brand-color-dirtywhite);
     box-shadow: 5px 2px 2px 1px rgba(0,0,0,0.3);
 }
 
@@ -25,12 +28,13 @@ nav ul li{
 nav ul li:hover{
     cursor: pointer;
     padding: 10px;
-    background-color: var(--brand-color-grey);
+    background-color: var(--brand-color-darkerwhite);
     border-radius: 4px;
     font-weight: 800;
     font-size: large;
 }
 nav ul li a{
+    color: var(--brand-color-darkgrey);
     text-decoration: none;
 }
 
@@ -41,6 +45,9 @@ nav ul li a{
 }
 
 .logo-container p{
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size:large;
     padding: 10px;
 }
 

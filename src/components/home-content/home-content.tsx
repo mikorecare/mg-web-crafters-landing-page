@@ -9,7 +9,7 @@ return(
     <div className='our-brand'>
         <img src={HomePic} className="background-pic"/>
         <div className='background-gradient-overlay'></div>
-        <h4>{content}</h4>
+        <h4><q><i>{content}</i></q></h4>
         <img src={MainPic} className="main-pic"/>
     </div>
 )
