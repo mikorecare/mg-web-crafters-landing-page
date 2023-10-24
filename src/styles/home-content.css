@@ -1,0 +1,6 @@
+@import '../styles/branding.css';
+
+.home-content{
+    height:100%;
+    background-color: var(--brand-color-dirtywhite);
+}
