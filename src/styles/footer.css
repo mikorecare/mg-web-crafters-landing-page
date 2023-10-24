@@ -1,0 +1,11 @@
+@import './branding.css';
+
+footer{
+    padding: 10px;
+    bottom:0;
+    position: fixed;
+    width:100%;
+    background-color: var(--brand-color-6);
+    border-radius: 2px;
+    box-shadow: 5px 2px 2px 1px rgba(0,0,0,0.3);
+}

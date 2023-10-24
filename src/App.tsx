@@ -1,4 +1,4 @@
-import './App.css'
+
 import Home from './components/home.tsx'
 function App() {
 
