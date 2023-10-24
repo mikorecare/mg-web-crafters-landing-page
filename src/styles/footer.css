@@ -3,11 +3,11 @@
 footer{
     padding-top: 10px;
     bottom:0;
-    position: relative;
+    position: fixed;
     width:100%;
     background-color: var(--brand-color-darkgrey);
     text-align: center;
-    height:100%;
+    height:max-content;
     color: var(--brand-color-dirtywhite)
 }
 
