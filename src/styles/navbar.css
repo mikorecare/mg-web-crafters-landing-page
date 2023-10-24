@@ -7,9 +7,14 @@ header{
     box-shadow: 5px 2px 2px 1px rgba(0,0,0,0.3);
 }
 
+nav{
+    margin-right:5%;
+}
+
 nav ul{
     display: flex;  
     list-style-type: none;
+    left:100px;
 }
 
 nav ul li{
@@ -30,4 +35,5 @@ nav ul li a{
 .nav-logo {
     height: 80px;
     width: 80px;
+    margin-left:2%;
 }
