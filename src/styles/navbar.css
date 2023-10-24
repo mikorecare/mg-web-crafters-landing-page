@@ -23,7 +23,7 @@ nav ul li{
 }
 nav ul li:hover{
     padding: 10px;
-    background-color: var(--brand-color-4);
+    background-color: var(--brand-color-darkwhite);
     border-radius: 4px;
     font-weight: 800;
     font-size: large;
