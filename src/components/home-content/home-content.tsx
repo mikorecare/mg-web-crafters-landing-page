@@ -7,7 +7,8 @@ const content ="We are your one-stop destination for all things digital. Our mis
 return(
     <div className='our-brand'>
         <img src={HomePic}/>
-        <p>{content}</p>
+        <div className='background-gradient-overlay'></div>
+        <h4>{content}</h4>
     </div>
 )
     
