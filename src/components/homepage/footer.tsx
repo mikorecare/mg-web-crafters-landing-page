@@ -17,7 +17,7 @@ const SocialIcons = () =>{
 
 const Copyright = () =>{
   return(
-    <div className="copyright">&copy; 2010 - 2023 MGWebCrafters-VA. All Rights Reserved.</div>
+    <div className="copyright">&copy; 2023 <strong>MG Web Crafters-VA</strong>. All Rights Reserved.</div>
   )
 }
 
