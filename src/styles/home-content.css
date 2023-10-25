@@ -74,10 +74,13 @@
     z-index: 1;
 } */
 
-/* .our-services{
-    color:red;
-    margin: none;
-} */
+.our-services{
+    color: var(--brand-color-darkgrey)
+
+}
+.our-services h2{
+    margin-left:2%
+}
 .our-services ul{
     padding:10px;
     justify-content: space-between;

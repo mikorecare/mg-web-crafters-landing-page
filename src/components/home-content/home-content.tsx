@@ -1,8 +1,30 @@
 import '../../styles/home-content.css'
 import HomePic from '../../assets/home-component-pic.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTeamspeak,  } from '@fortawesome/free-brands-svg-icons';
+import { faCode } from '@fortawesome/free-solid-svg-icons';
+import { faMailBulk } from '@fortawesome/free-solid-svg-icons/faMailBulk';
+import { faSearchDollar } from '@fortawesome/free-solid-svg-icons/faSearchDollar';
+import { faTty } from '@fortawesome/free-solid-svg-icons/faTty';
 // import MainPic from '../../assets/home-content-pic.png'
 
 const OurServices = () =>{
+    const servicesIcon = (option: any) =>{
+        switch (option) {
+            case 'Social Media Management':
+              return <FontAwesomeIcon icon={faTeamspeak}/>;
+            case 'Website Development':
+              return <FontAwesomeIcon icon={faCode}/>;
+            case 'Email Marketing':
+              return <FontAwesomeIcon icon={faMailBulk}/>;
+            case 'Lead Generation':
+              return <FontAwesomeIcon icon={faSearchDollar}/>;
+            case 'Virtual Assistant Services':
+              return <FontAwesomeIcon icon={faTty}/>;
+            default:
+              return <></>;
+          }
+    }
     const services = [
         {name:"Social Media Management",description:"SOCIAL MEDIA MANAGEMENT DESCRIPTION"},
         {name:"Website Development",description:"WEBSITE DEVELOPMENT DESCRIPTION"},
@@ -13,9 +35,17 @@ const OurServices = () =>{
     console.log(services[0].name)
     return(
         <div className='our-services'>
+            <h2>Our Services</h2>
             <ul>
                 {services.map((list,index)=>(
-                    <li key={index}>{list.name}</li>
+                    <li key={index}>
+                        <div>
+                            {servicesIcon(list.name)}
+                            <p>{list.name}</p>
+                            <p>{list.description}</p>
+                        </div>
+                        
+                        </li>
                 ))}
             </ul>
         </div>
