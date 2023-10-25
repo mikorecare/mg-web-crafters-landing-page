@@ -39,12 +39,11 @@ const OurServices = () =>{
             <ul>
                 {services.map((list,index)=>(
                     <li key={index}>
-                        <div>
-                            {servicesIcon(list.name)}
+                        <div className='service-info'>
+                            <span className='service-info-icon'>{servicesIcon(list.name)}</span>
                             <p>{list.name}</p>
                             <p>{list.description}</p>
                         </div>
-                        
                         </li>
                 ))}
             </ul>

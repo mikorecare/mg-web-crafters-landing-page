@@ -22,8 +22,9 @@
 
 .our-brand .tagline{
     height: max-content;
-    background-color: rgba(255,232,214,0.9);
-    /* backdrop-filter: blur(10px); */
+    background-color: rgba(255,232,214,0.8);
+    box-shadow: 1px 2px 2px 1px;
+    /* backdrop-filter: blur(1px); */
     /* border: solid 2px;
     border-radius: 4px; */
     margin-top:10%;
@@ -90,12 +91,22 @@
 }
 
 .our-services li{
+    background-color: var(--brand-color-2);
     display: inline-block;
     list-style: none;
     margin-right: auto;
     margin-left:auto;
     padding: 1%;;
-    border: 2px solid;
+    border-radius: 10px;
+    box-shadow: 1px 2px 2px 1px;
     height:200px;
     width: 200px;
+}
+
+.service-info{
+    color:var(--brand-color-darkgrey)
+}
+
+.service-info .service-info-icon{
+    font-size: xx-large;
 }
