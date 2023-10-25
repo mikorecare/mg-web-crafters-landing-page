@@ -36,6 +36,14 @@
     animation: slideIn 1s ease-out;
 }
 
+.tagline h2{
+    color:var(--brand-color-6)
+}
+
+.tagline h5{
+    color:var(--brand-color-6)
+}
+
 
 
 .our-brand .main-pic{
