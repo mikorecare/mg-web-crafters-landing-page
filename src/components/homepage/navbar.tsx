@@ -6,7 +6,7 @@ const Navbar = () =>
      <header>
             <div className='logo-container'>
             <img src ={logo} className="nav-logo"/>
-            <p>MG Web Crafters VA</p>
+            <p><i>MG Web Crafters VA</i></p>
             </div>
           
                 <nav>

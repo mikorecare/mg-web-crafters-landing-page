@@ -4,11 +4,12 @@
 
 
 header{
-    color: var(--brand-color-darkgrey);
+    color: var(--brand-color-6);
     font-size:large;
     display: flex;
     justify-content:space-between;
-    background-color: var(--brand-color-dirtywhite);
+    /* background-color: var(--brand-color-dirtywhite); */
+    background-color: #f8f9fa;
     box-shadow: 5px 2px 2px 1px rgba(0,0,0,0.3);
 }
 

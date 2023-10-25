@@ -15,44 +15,48 @@
 }
 .our-brand{
     display: flex;
-    justify-content:center;
+    justify-content:flex-start;
 }
 
-.our-brand .background-gradient-overlay{
-    background: linear-gradient(to right, rgba(41, 223, 255, 0.3),  rgba(255, 2, 108, 0.2));
-    height:500px;
-    position: absolute;
-    width: 100%;
-    z-index: 1;
-}
-
-.our-brand h4 {
+.our-brand .tagline{
     height: max-content;
-    background-color: rgba(255,232,214,0.5);
-    backdrop-filter: blur(1000px);
+    background-color: rgba(255,232,214,0.9);
+    /* backdrop-filter: blur(10px); */
+    /* border: solid 2px;
+    border-radius: 4px; */
+    margin-top:10%;
+    margin-left: 2%;
     color: var(--brand-color-grey);
     padding: 2%;
     position: relative;
     text-align: justify;
-    font-size: xx-large;
+    font-size: x-large;
     width:50%;
-    border: solid 2px;
-    border-radius: 4px;
     z-index: 2;
     animation: slideIn 1s ease-out;
 }
 
+
+
 .our-brand .main-pic{
+    
+    height: 500px;
     padding: 2%;
     position: relative;
-    width:20%;
     z-index: 2;
 }
 
 .our-brand .background-pic{
-    opacity: 0.6;
-    height:500px;
+    height:700px;
+    /* opacity: 0.6; */
     position: absolute;
     width: 100%;
     z-index: 0;
 }
+
+/* .our-brand .background-gradient-overlay{
+    background: linear-gradient(to right, rgba(203,153,126,0.3),  rgba(107,112,92,0.3));
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+} */
