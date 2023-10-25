@@ -3,7 +3,7 @@
 /* keyframes */
 @keyframes slideIn {
     from {
-      transform: translateX(-100%);
+      transform: translateX(-50%);
     }
     to {
       transform: translateX(0);
@@ -33,7 +33,7 @@
     font-size: x-large;
     width:50%;
     z-index: 2;
-    animation: slideIn 1s ease-out;
+    animation: slideIn 0.5s ease-out;
 }
 
 .tagline h2{
@@ -44,6 +44,9 @@
     color:var(--brand-color-6)
 }
 
+.tagline .emphasis{
+    color: var(--brand-color-darkgrey)
+}
 
 
 .our-brand .main-pic{
@@ -68,3 +71,15 @@
     width: 100%;
     z-index: 1;
 } */
+
+.our-services{
+    position: relative;
+    display: flex;
+    color:red;
+    z-index: 2;
+}
+
+.our-services li{
+    height:200px;
+    width: 200px;
+}
