@@ -34,7 +34,7 @@ const OurServices = () =>{
     ];
     console.log(services[0].name)
     return(
-        <div className='our-services'>
+        <section className='our-services'>
             <h1 className='our-services-title'>Our Services</h1>
             <ul>
                 {services.map((list,index)=>(
@@ -47,16 +47,16 @@ const OurServices = () =>{
                     </li>
                 ))}
             </ul>
-        </div>
+        </section>
     )
     
 }
 
 const OurBrand = () => {
-    const content ="We are your one-stop destination for all things digital. Our mission is simple: to empower businesses and individuals to thrive in the ever-evolving online landscape. We combine cutting-edge technology, creative expertise, and unwavering commitment to help you achieve your digital goals."
+    const content ="MGWebCrafters was founded by a group of forward-thinkers who recognized the transformative power of the internet. We've seen the web evolve from a simple communication tool to a dynamic marketplace, and we've been a part of this evolution every step of the way. Our journey is marked by continuous learning, adaptability, and an unwavering commitment to innovation."
 
     return(
-        <div className='our-brand'>
+        <section className='our-brand'>
             <img src={HomePic} className="background-pic"/>
             <div className='background-gradient-overlay'></div>
             <div className="tagline">
@@ -64,7 +64,7 @@ const OurBrand = () => {
             <h5><q><i>{content}</i></q></h5>
             </div>
         
-        </div>
+        </section>
     )
         
 }

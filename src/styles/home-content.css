@@ -11,16 +11,25 @@
   }
 /* Main css */
 .home-content{
+    z-index: 2;
+    position:relative;
     height:max-content;
 }
 .our-brand{
+    margin-top: 80px;
+    z-index: 0;
     max-height:700px;
-    height:700px;
-    display: flex;
+    min-height: 500px;
+    height:500px;
+    display: inline-flex;
     justify-content:flex-start;
 }
 
 .our-brand .tagline{
+    text-overflow: ellipsis;
+    overflow-y:hidden;
+    overflow-x:hidden;
+    max-height: 400px;
     height: max-content;
     background-color: rgba(255,232,214,0.8);
     box-shadow: 1px 2px 2px 1px;
@@ -28,7 +37,7 @@
     /* backdrop-filter: blur(1px); */
     /* border: solid 2px;
     border-radius: 4px; */
-    margin-top:10%;
+    margin-top:15%;
     margin-left: 2%;
     color: var(--brand-color-grey);
     padding: 2%;
@@ -40,12 +49,20 @@
 }
 
 .tagline h2{
+    display: inline;
+    margin-bottom: auto;
+    position: relative;
+    max-height: 150px;
+    text-wrap:pretty;
     color:var(--brand-color-6);
     animation: slideIn 0.5s ease-out;
 }
 
 .tagline h5{
+    position: relative;
+    max-height: 250px;
     color:var(--brand-color-6);
+    margin-top: 2px;
     animation: slideIn 0.5s ease-out;
 }
 
@@ -63,7 +80,8 @@
 }
 
 .our-brand .background-pic{
-    height:700px;
+    min-height:500px;
+    max-height: 700px;
     /* opacity: 0.6; */
     position: absolute;
     width: 100%;
@@ -78,11 +96,12 @@
 } */
 
 .our-services{
+    z-index: 3;
     color: var(--brand-color-darkgrey);
-    margin-top:4%;
+    margin-top:20%;
 }
 .our-services .our-services-title{
-    font-size:72px;
+    font-size:50px;
     text-align: center;
     margin-left:2%;
     margin-bottom:none;
@@ -100,8 +119,8 @@
     background-color: var(--brand-color-2);
     display: inline-block;
     list-style: none;
-    margin-right: auto;
-    margin-left:auto;
+    margin-right: 5px;
+    margin-left:5px;
     padding: 1%;;
     border-radius: 10px;
     box-shadow: 1px 2px 2px 1px;
