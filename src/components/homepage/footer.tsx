@@ -5,11 +5,11 @@ import '../../styles/footer.css'
 const SocialIcons = () =>{
   return(
     <div className="social-icons">
-      <a href="#"><FontAwesomeIcon icon={faFacebook} className='icon' /></a>
-      <a href="#"><FontAwesomeIcon icon={faTwitter} className='icon'/></a>
-      <a href="#"><FontAwesomeIcon icon={faLinkedin} className='icon'/></a>
-      <a href="#"><FontAwesomeIcon icon={faGoogle} className='icon'/></a>
-      <a href="#"><FontAwesomeIcon icon={faInstagram} className='icon'/></a>
+      <a href="#" target='_blank'><FontAwesomeIcon icon={faFacebook} className='icon' /></a>
+      <a href="#" target='_blank'><FontAwesomeIcon icon={faTwitter} className='icon'/></a>
+      <a href="#" target='_blank'><FontAwesomeIcon icon={faLinkedin} className='icon'/></a>
+      <a href="#" target='_blank'><FontAwesomeIcon icon={faGoogle} className='icon'/></a>
+      <a href="#" target='_blank'><FontAwesomeIcon icon={faInstagram} className='icon'/></a>
     </div>
   )
 
