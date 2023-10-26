@@ -118,7 +118,7 @@
 
 .our-services li{
     cursor: pointer;
-    background-color: var(--brand-color-darkerwhite);
+    background-color: #f8f9fa;
     display: inline-block;
     list-style: none;
     margin-right: 2%;
