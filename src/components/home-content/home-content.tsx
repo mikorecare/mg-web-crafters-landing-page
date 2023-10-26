@@ -35,16 +35,16 @@ const OurServices = () =>{
     console.log(services[0].name)
     return(
         <div className='our-services'>
-            <h2>Our Services</h2>
+            <h1 className='our-services-title'>Our Services</h1>
             <ul>
                 {services.map((list,index)=>(
                     <li key={index}>
                         <div className='service-info'>
                             <span className='service-info-icon'>{servicesIcon(list.name)}</span>
                             <p>{list.name}</p>
-                            <p>{list.description}</p>
+                            <p className='service-info-description'>{list.description}</p>
                         </div>
-                        </li>
+                    </li>
                 ))}
             </ul>
         </div>

@@ -3,7 +3,7 @@
 /* keyframes */
 @keyframes slideIn {
     from {
-      transform: translateX(-50%);
+      transform: translateY(100%);
     }
     to {
       transform: translateX(0);
@@ -24,6 +24,7 @@
     height: max-content;
     background-color: rgba(255,232,214,0.8);
     box-shadow: 1px 2px 2px 1px;
+    border-radius: 10px;
     /* backdrop-filter: blur(1px); */
     /* border: solid 2px;
     border-radius: 4px; */
@@ -36,15 +37,16 @@
     font-size: x-large;
     width:50%;
     z-index: 2;
-    animation: slideIn 0.5s ease-out;
 }
 
 .tagline h2{
-    color:var(--brand-color-6)
+    color:var(--brand-color-6);
+    animation: slideIn 0.5s ease-out;
 }
 
 .tagline h5{
-    color:var(--brand-color-6)
+    color:var(--brand-color-6);
+    animation: slideIn 0.5s ease-out;
 }
 
 .tagline .emphasis{
@@ -76,11 +78,14 @@
 } */
 
 .our-services{
-    color: var(--brand-color-darkgrey)
-
+    color: var(--brand-color-darkgrey);
+    margin-top:4%;
 }
-.our-services h2{
-    margin-left:2%
+.our-services .our-services-title{
+    font-size:72px;
+    text-align: center;
+    margin-left:2%;
+    margin-bottom:none;
 }
 .our-services ul{
     padding:10px;
@@ -91,6 +96,7 @@
 }
 
 .our-services li{
+    cursor: pointer;
     background-color: var(--brand-color-2);
     display: inline-block;
     list-style: none;
@@ -103,10 +109,21 @@
     width: 200px;
 }
 
+.our-services li:hover{
+    background-color: var(--brand-color-4);
+    box-shadow: 5px 6px 6px 2px;
+    margin-top:-10px;
+}
+
 .service-info{
     color:var(--brand-color-darkgrey)
 }
 
 .service-info .service-info-icon{
-    font-size: xx-large;
+    font-size: 50px;
+}
+
+.service-info .service-info-description{
+    font-size: small;
+    color: var(--brand-color-6)
 }
