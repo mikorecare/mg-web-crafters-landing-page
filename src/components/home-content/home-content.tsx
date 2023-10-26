@@ -6,10 +6,27 @@ import { faCode } from '@fortawesome/free-solid-svg-icons';
 import { faMailBulk } from '@fortawesome/free-solid-svg-icons/faMailBulk';
 import { faSearchDollar } from '@fortawesome/free-solid-svg-icons/faSearchDollar';
 import { faTty } from '@fortawesome/free-solid-svg-icons/faTty';
-// import MainPic from '../../assets/home-content-pic.png'
+import AnimatedPic from '../../assets/Animated-logo.png'
+
+const OurBrand = () => {
+    let content ="MGWebCrafters was founded by a group of forward-thinkers who recognized the transformative power of the internet. We've seen the web evolve from a simple communication tool to a dynamic marketplace, and we've been a part of this evolution every step of the way. Our journey is marked by continuous learning, adaptability, and an unwavering commitment to innovation."
+
+    return(
+        <section className='our-brand'>
+            <img src={HomePic} className="background-pic"/>
+            <div className='background-gradient-overlay'></div>
+            <div className="tagline">
+            <h2>Empowering Your Digital Presence with Virtual Assistance | <strong className='emphasis'>MG Web Crafters</strong></h2>
+            <h5><q><i>{content}</i></q></h5>
+            </div>
+        
+        </section>
+    )
+        
+}
 
 const OurServices = () =>{
-    const servicesIcon = (option: any) =>{
+    let servicesIcon = (option: any) =>{
         switch (option) {
             case 'Social Media Management':
               return <FontAwesomeIcon icon={faTeamspeak}/>;
@@ -25,7 +42,7 @@ const OurServices = () =>{
               return <></>;
           }
     }
-    const services = [
+    let services = [
         {name:"Social Media Management",description:"SOCIAL MEDIA MANAGEMENT DESCRIPTION"},
         {name:"Website Development",description:"WEBSITE DEVELOPMENT DESCRIPTION"},
         {name:"Email Marketing",description:"EMAIL MARKETING DESCRIPTION"},
@@ -52,21 +69,22 @@ const OurServices = () =>{
     
 }
 
-const OurBrand = () => {
-    const content ="MGWebCrafters was founded by a group of forward-thinkers who recognized the transformative power of the internet. We've seen the web evolve from a simple communication tool to a dynamic marketplace, and we've been a part of this evolution every step of the way. Our journey is marked by continuous learning, adaptability, and an unwavering commitment to innovation."
-
+const WhyUs = () =>{
+    let whyUs = "At MGWebCrafters, we're more than just a digital services company. We are a passionate team of creators, strategists, and problem solvers dedicated to helping businesses and individuals succeed in the digital world."
     return(
-        <section className='our-brand'>
-            <img src={HomePic} className="background-pic"/>
-            <div className='background-gradient-overlay'></div>
-            <div className="tagline">
-            <h2>Empowering Your Digital Presence with Virtual Assistance | <strong className='emphasis'>MG Web Crafters</strong></h2>
-            <h5><q><i>{content}</i></q></h5>
+        <section className='why-us'>
+            <div className='why-us-content'>
+                <div>
+                    <h1 className='why-us-title'>Why Us?</h1>
+                    <p className='why-us-text'>{whyUs}</p>
+                </div>
+
+     
+                <img src={AnimatedPic}/>
             </div>
-        
+            
         </section>
     )
-        
 }
 
 const HomeContent = () => {
@@ -74,6 +92,7 @@ const HomeContent = () => {
         <div className="home-content">
             <OurBrand/>
             <OurServices/>
+            <WhyUs/>
         </div>
     )
 }

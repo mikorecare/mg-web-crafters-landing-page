@@ -95,6 +95,8 @@
     z-index: 1;
 } */
 
+
+/* SERVICES ============================ */
 .our-services{
     z-index: 3;
     color: var(--brand-color-darkgrey);
@@ -116,11 +118,11 @@
 
 .our-services li{
     cursor: pointer;
-    background-color: var(--brand-color-2);
+    background-color: var(--brand-color-darkerwhite);
     display: inline-block;
     list-style: none;
-    margin-right: 5px;
-    margin-left:5px;
+    margin-right: 2%;
+    margin-left:2%;
     padding: 1%;;
     border-radius: 10px;
     box-shadow: 1px 2px 2px 1px;
@@ -129,7 +131,7 @@
 }
 
 .our-services li:hover{
-    background-color: var(--brand-color-4);
+    background-color: var(--brand-color-2);
     box-shadow: 5px 6px 6px 2px;
     margin-top:-10px;
 }
@@ -145,4 +147,33 @@
 .service-info .service-info-description{
     font-size: small;
     color: var(--brand-color-6)
+}
+
+/* WHY US ======================================== */
+
+.why-us{
+    z-index: 3;
+    color: var(--brand-color-darkgrey);
+    margin-top:5%;
+}
+
+.why-us .why-us-title{
+    font-size:50px;
+    text-align: center;
+    margin-left:2%;
+    margin-bottom:none;
+}
+.why-us-content{
+    display: flex;
+    justify-content: space-evenly;
+}
+.why-us-text{
+    width:90%;
+    font-size: 33px;
+    margin:2%;
+    text-align: center;
+    padding:10px;
+    /* margin: none;
+    flex-direction: row; */
+    display: flex;
 }
