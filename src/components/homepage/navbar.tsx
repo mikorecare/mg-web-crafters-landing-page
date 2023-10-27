@@ -12,9 +12,9 @@ const Navbar = () =>
                 <nav>
                     <ul>
                         <li><a href='#'>HOME</a></li> 
-                        <li><a href='#'>SERVICES</a></li> 
-                        <li><a href='#'>ABOUT</a></li>  
-                        <li><a href='#'>CONTACT US</a></li>  
+                        <li><a href='#our-services'>SERVICES</a></li> 
+                        <li><a href='#about'>ABOUT</a></li>  
+                        <li><a href='#contact-us'>CONTACT US</a></li>  
                     </ul>
                 </nav>  
      </header>   
