@@ -49,7 +49,7 @@ const OurServices = () =>{
         {name:"Lead Generation",description:"LEAD GENERATION DESCRIPTION"},
         {name:"Virtual Assistant Services",description:"VIRTUAL ASSISTANCE DESCRIPTION"},
     ];
-    console.log(services[0].name)
+
     return(
         <section className='our-services'>
             <h1 className='our-services-title'>Our Services</h1>
