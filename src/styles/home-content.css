@@ -70,30 +70,6 @@
 }
 
 
-.our-brand .main-pic{
-    
-    height: 500px;
-    padding: 2%;
-    position: relative;
-    z-index: 2;
-}
-
-.our-brand .background-pic{
-    min-height:500px;
-    max-height: 700px;
-    /* opacity: 0.6; */
-    position: absolute;
-    width: 100%;
-    z-index: 0;
-}
-
-/* .our-brand .background-gradient-overlay{
-    background: linear-gradient(to right, rgba(203,153,126,0.3),  rgba(107,112,92,0.3));
-    position: absolute;
-    width: 100%;
-    z-index: 1;
-} */
-
 
 /* SERVICES ============================ */
 .our-services{
