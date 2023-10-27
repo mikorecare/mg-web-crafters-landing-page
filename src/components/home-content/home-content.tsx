@@ -1,5 +1,5 @@
 import '../../styles/home-content.css'
-import HomePic from '../../assets/home-component-pic.png'
+// import HomePic from '../../assets/home-component-pic.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTeamspeak,  } from '@fortawesome/free-brands-svg-icons';
 import { faCode } from '@fortawesome/free-solid-svg-icons';
@@ -13,7 +13,6 @@ const OurBrand = () => {
 
     return(
         <section className='our-brand'>
-            <img src={HomePic} className="background-pic"/>
             <div className='background-gradient-overlay'></div>
             <div className="tagline">
             <h2>Empowering Your Digital Presence with Virtual Assistance | <strong className='emphasis'>MG Web Crafters</strong></h2>

@@ -24,13 +24,10 @@ export default function Home(){
     }, []);
     
     return(
-        <>
+        <div id="home-content">
             <Navbar/>
-            <div id="home-content">
-                <HomeContent/>
-            </div>
-            
+            <HomeContent/>
             <Footer/>
-        </>
+        </div>
     )
 }

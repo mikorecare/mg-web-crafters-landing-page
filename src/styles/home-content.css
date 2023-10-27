@@ -16,13 +16,12 @@
     height:max-content;
 }
 .our-brand{
+    background: url('../assets/home-component-pic.png') fixed no-repeat;
+    background-size: cover;
     margin-top: 80px;
-    z-index: 0;
-    max-height:700px;
-    min-height: 500px;
-    height:500px;
+    width:100%;
+    height:700px;
     display: inline-flex;
-    justify-content:flex-start;
 }
 
 .our-brand .tagline{
@@ -100,7 +99,6 @@
 .our-services{
     z-index: 3;
     color: var(--brand-color-darkgrey);
-    margin-top:20%;
 }
 .our-services .our-services-title{
     font-size:50px;
