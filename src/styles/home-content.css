@@ -151,3 +151,37 @@
     flex-direction: row; */
     display: flex;
 }
+
+/* CONTACT US=============== */
+
+.contact-us{
+    z-index: 3;
+    color: var(--brand-color-darkgrey);
+    margin-top:5%;
+}
+
+.contact-us .contact-us-title{
+    font-size:50px;
+    text-align: center;
+    margin-left:2%;
+    margin-bottom:none;
+}
+.contact-us-content{
+    display: flex;
+    justify-content: space-evenly;
+}
+.contact-us-email, .contact-us-phone {
+    align-self: center;
+    width:90%;
+    font-size: 24px;
+    margin:2%;
+    text-align: center;
+    padding:10px;
+    /* margin: none;
+    flex-direction: row; */
+    display: flex;
+}
+.contact-us-info{
+    margin-left:8px;
+    color:var(--brand-color-darkerwhite)
+}
