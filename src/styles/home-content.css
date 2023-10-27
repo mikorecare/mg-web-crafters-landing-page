@@ -110,25 +110,16 @@
 }
 .our-services ul{
     padding:10px;
-    justify-content: space-between;
-    /* margin: none;
-    flex-direction: row; */
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
 }
 
 .our-services li{
     cursor: pointer;
     background-color: #f8f9fa;
-    /* display: inline-block; */
     list-style: none;
-    /* margin-right: 2%;
-    margin-left:2%;
-    padding: 1%;;
-    border-radius: 10px;
-    box-shadow: 1px 2px 2px 1px;
-    height:200px;
-    width: 200px; */
-
     flex-basis: 225px;
     box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
