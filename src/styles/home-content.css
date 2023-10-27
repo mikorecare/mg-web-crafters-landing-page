@@ -119,15 +119,24 @@
 .our-services li{
     cursor: pointer;
     background-color: #f8f9fa;
-    display: inline-block;
+    /* display: inline-block; */
     list-style: none;
-    margin-right: 2%;
+    /* margin-right: 2%;
     margin-left:2%;
     padding: 1%;;
     border-radius: 10px;
     box-shadow: 1px 2px 2px 1px;
     height:200px;
-    width: 200px;
+    width: 200px; */
+
+    flex-basis: 225px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 13px;
+    padding-bottom: 20px;
+    background-color: white;
 }
 
 .our-services li:hover{
